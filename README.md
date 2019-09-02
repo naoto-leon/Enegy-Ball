@@ -85,7 +85,6 @@ Multiplyで効果を強くして、あとはMaximumで最低値を変える。
 
 #### [4]CameraOpaqueTextureによる歪み処理   
 
-<img width="750" alt="ball15" src="https://user-images.githubusercontent.com/43961147/64123744-2940ed00-cde0-11e9-9ca8-7a5e6df92986.png"
 
 2パス描けないので、歪みエフェクト用に新しいシェーダーを作る。  
 
