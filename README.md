@@ -1,6 +1,7 @@
 # Enegy-Ball
 08/29 Unity道場復習 [Shader Graph]  Depth処理/ベクトル内積など
 
+![EnegyBall](https://user-images.githubusercontent.com/43961147/64123557-acae0e80-cddf-11e9-85a8-b5fd617f23f9.gif)
 
 ## エナジーボールの作り方と歪み処理に関して  
 
