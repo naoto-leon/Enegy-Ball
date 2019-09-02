@@ -85,6 +85,7 @@ Multiplyで効果を強くして、あとはMaximumで最低値を変える。
 
 #### [4]CameraOpaqueTextureによる歪み処理   
 
+<img width="750" alt="ball15" src="https://user-images.githubusercontent.com/43961147/64124432-fc8dd500-cde1-11e9-872f-b4d75a40d772.png">
 
 2パス描けないので、歪みエフェクト用に新しいシェーダーを作る。  
 
@@ -92,5 +93,6 @@ Multiplyで効果を強くして、あとはMaximumで最低値を変える。
 Texture2Dのパスをこれに帰るだけでRenderTexture(描画結果を貼り付けている)のような働きになる。（対象に貼るにはどうやらScreenPositionが必要）  
 めちゃくちゃ便利。  
 後はこれのUVの値を弄るだけで色々な事が出来る。
+
 
 
