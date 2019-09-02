@@ -60,7 +60,7 @@ Multiplyで効果を強くして、あとはMaximumで最低値を変える。
 2パス描けないので、歪みエフェクト用に新しいシェーダーを作る。  
 
 今回学んだ一番の発見はこの「CameraOpaqueTexture」の処理。  
-Texture2Dのパスをこれに帰るだけでRenderTexture(描画結果を貼り付けている)のような働きになる。  
+Texture2Dのパスをこれに帰るだけでRenderTexture(描画結果を貼り付けている)のような働きになる。（対象に貼るにはどうやらScreenPositionが必要）  
 めちゃくちゃ便利。  
 後はこれのUVの値を弄るだけで色々な事が出来る。
 
